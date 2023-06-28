@@ -1,4 +1,4 @@
-#### Description
+## Description
 
 The Dynamic Facility Layout Problem (DFLP) addresses the task of devising effective facility arrangements within a specified timeframe, accommodating variations in product types and demands across different periods. The primary objective of the DFLP is to identify the most favorable configuration of facilities within a given spatial context, aiming to minimize expenses, enhance operational efficiency, and accomplish specific goals. Key considerations in the DFLP encompass aspects such as product flow, material handling, facility capacities, and the dynamic nature of demand fluctuations over time.
 
@@ -13,7 +13,7 @@ The present repository contains a set of datasets associated with DFLP. Data fil
 - Variable shifting cost matrices (if applicable).
 - Maximum number of allowed parallel bays (if applicable).
 
-#### Example
+## Example
 
 ```
 (
@@ -77,7 +77,7 @@ The present repository contains a set of datasets associated with DFLP. Data fil
 )
 ```
 
-#### Considerations
+## Considerations
 1. In datasets where the same value of 'Min.Area', 'ARMax', 'Fixed_shifting_costs', or 'Variable_shifting_costs' is maintained for all periods, the following Python notation can be found:
 
 ```
